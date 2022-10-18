@@ -30,39 +30,39 @@ const app = {
             name: 'SP23',
             dec: 'Áo peplum kiểu dáng hàn quốc tay dài phối đen trắng trẻ trung chất vải tuyết mưa phối tơ hàn mềm mịn không nhăn nhàu A12',
             image: '../asssets/img/sp23.png',
-            cours: '999.000đ',
-            courOld: '1.200.000đ'
+            cours: '299.000đ',
+            courOld: '360.000đ'
         },
         {
             name: 'SP24',
             dec: 'Áo sơ mi lụa phong cách hàn quốc dài tay cổ đức chất liệu lụa mềm mịn không nhăn nhàu A24',
             image: '../asssets/img/sp24.png',
-            cours: '1.299.000đ',
-            courOld: '1.500.000đ'
+            cours: '400.000đ',
+            courOld: '500.000đ'
 
         },
         {
             name: 'SP28',
             dec: 'Váy Cổ Vuông Tay Trắng',
             image: '../asssets/img/sp28.png',
-            cours: '1.299.000đ',
-            courOld: '1.500.000đ'
+            cours: '399.000đ',
+            courOld: '480.000đ'
 
         },
         {
             name: 'SP29',
             dec: 'Váy Cổ Sơ Mi Hai Màu Đen Be',
             image: '../asssets/img/sp29.png',
-            cours: '1.299.000đ',
-            courOld: '1.500.000đ'
+            cours: '329.000đ',
+            courOld: '600.000đ'
 
         },
         {
             name: 'SP30',
             dec: 'Áo croptop Tay Phồng ngắn cổ vuông nhún ngực A2-TPN',
             image: '../asssets/img/sp30.png',
-            cours: '1.299.000đ',
-            courOld: '1.500.000đ'
+            cours: '299.000đ',
+            courOld: '370.000đ'
 
         },
     ],
@@ -98,18 +98,18 @@ const app = {
                         <i class="home-product-item__star--gold fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <span class="home-product-item__sold">88 đã bán</span>
+                    <span class="home-product-item__sold">20 đã bán</span>
                 </div>
                 <div class="home-product-item__origin">
-                    <span class="home-product-item__brand">Tanktop</span>
-                    <span class="home-product-item__origin-name">Hàn Quốc</span>
+                    <span class="home-product-item__brand">VietShop</span>
+                    <span class="home-product-item__origin-name">TPHCM</span>
                 </div>
                 <div class="home-product-item__favarite">
                     <i class="fas fa-check"></i>
                     <span>Yêu thích</span>
                 </div>
                 <div class="home-product-item__sale-off">
-                    <span class="home-product-item__percent">10%</span>
+                    <span class="home-product-item__percent">15%</span>
                     <span class="home-product-item__sale-off-label">GIẢM</span>
                 </div>
             </a>

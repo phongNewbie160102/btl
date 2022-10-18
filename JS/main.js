@@ -30,78 +30,77 @@ const app = {
             name: 'SP24',
             dec: 'Áo sơ mi lụa phong cách hàn quốc dài tay cổ đức chất liệu lụa mềm mịn không nhăn nhàu A24',
             image: './asssets/img/sp24.png',
-            cours: '1.299.000đ',
-            courOld: '1.500.000đ'
+            cours: '400.000đ',
+            courOld: '500.000đ'
 
         },
         {
             name: 'SP4',
             dec: 'quần ống rộng suông nữ dây rút lưng thun vải kaki nhiều màu trẻ trung',
             image: './asssets/img/sp4.png',
-            cours: '1.299.000đ',
-            courOld: '1.500.000đ'
+            cours: '199.000đ',
+            courOld: '250.000đ'
 
         },
         {
             name: 'SP25',
             dec: 'Quần jean nữ ống loe cạp cao co dãn nhẹ bốn chiều siêu tôn dáng chân dài',
             image: './asssets/img/sp25.png',
-            cours: '1.299.000đ',
-            courOld: '1.500.000đ'
+            cours: '459.000đ',
+            courOld: '500.000đ'
 
         },
         {
             name: 'SP26',
             dec: 'Quần Jean Skinny Nữ Dáng Ôm Lưng Siêu Cao Trơn Basic',
             image: './asssets/img/sp26.png',
-            cours: '1.299.000đ',
-            courOld: '1.500.000đ'
-
+            cours: '398.000đ',
+            courOld: '420.000đ'
         },
         {
             name: 'SP1',
             dec: 'Áo khoác nỉ Hoodies cao cấp HD02, Áo bomber form rộng Oversize',
             image: './asssets/img/sp1.png',
-            cours: '1.299.000đ',
-            courOld: '1.500.000đ'
+            cours: '299.000đ',
+            courOld: '500.000đ'
 
         },
         {
             name: 'SP11',
             dec: 'Áo Hoodie ni lông trơn màu xám xanh UNISEX ,Nam nữ unisex, HOODIE TRƠN',
             image: './asssets/img/sp11.png',
-            cours: '1.299.000đ',
-            courOld: '1.500.000đ'
+            cours: '239.000đ',
+            courOld: '660.000đ'
 
         },
         {
             name: 'SP14',
             dec: 'Áo sơ mi đi biển, bộ đồ đôi hoa quả hoạ tiết nam nữ quan ao hawaii Kate Thái',
             image: './asssets/img/sp14.png',
-            cours: '1.299.000đ',
-            courOld: '1.500.000đ'
+            cours: '360.000đ',
+            courOld: '400.000đ'
 
         },
         {
             name: 'SP17',
             dec: 'Áo sơ mi nam dài tay Urano cổ bẻ, áo sơ mi vải lụa nến không nhăn không xù cao cấp',
             image: './asssets/img/sp17.png',
-            cours: '1.299.000đ',
-            courOld: '1.500.000đ'
+            cours: '239.000đ',
+            courOld: '500.000đ'
         },
         {
             name: 'SP9',
             dec: 'Quần Kaki Nam Baggy Ống Suông Basic Unisex',
             image: './asssets/img/sp9.png',
-            cours: '1.299.000đ',
-            courOld: '1.500.000đ'
+            cours: '399.000đ',
+            courOld: '430.000đ'
         },
         {
             name: 'SP10',
             dec: 'Quần Jean Nam Baggy Ống Suông Unisex phong cách SIMPLE Kiểu quần bò nam form suông rộng jeans',
             image: './asssets/img/sp10.png',
-            cours: '1.299.000đ',
-            courOld: '1.500.000đ'
+            cours: '599.000đ',
+            courOld: '650.000đ'
         },
 
 
@@ -138,18 +137,18 @@ const app = {
                         <i class="home-product-item__star--gold fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <span class="home-product-item__sold">88 đã bán</span>
+                    <span class="home-product-item__sold">20 đã bán</span>
                 </div>
                 <div class="home-product-item__origin">
-                    <span class="home-product-item__brand">Tanktop</span>
-                    <span class="home-product-item__origin-name">Hàn Quốc</span>
+                    <span class="home-product-item__brand">VietShop</span>
+                    <span class="home-product-item__origin-name">Hà Nội</span>
                 </div>
                 <div class="home-product-item__favarite">
                     <i class="fas fa-check"></i>
                     <span>Yêu thích</span>
                 </div>
                 <div class="home-product-item__sale-off">
-                    <span class="home-product-item__percent">10%</span>
+                    <span class="home-product-item__percent">15%</span>
                     <span class="home-product-item__sale-off-label">GIẢM</span>
                 </div>
             </a>

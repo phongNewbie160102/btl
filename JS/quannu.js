@@ -30,32 +30,32 @@ const app = {
             name: 'SP22',
             dec: 'Chân Váy Jean Dáng Chữ A Siêu Hot',
             image: '../asssets/img/sp22.png',
-            cours: '1.299.000đ',
-            courOld: '1.500.000đ'
+            cours: '399.000đ',
+            courOld: '500.000đ'
 
         },
         {
             name: 'SP25',
             dec: 'Quần jean nữ ống loe cạp cao co dãn nhẹ bốn chiều siêu tôn dáng chân dài',
             image: '../asssets/img/sp25.png',
-            cours: '1.299.000đ',
-            courOld: '1.500.000đ'
+            cours: '459.000đ',
+            courOld: '500.000đ'
 
         },
         {
             name: 'SP26',
             dec: 'Quần Jean Skinny Nữ Dáng Ôm Lưng Siêu Cao Trơn Basic',
             image: '../asssets/img/sp26.png',
-            cours: '1.299.000đ',
-            courOld: '1.500.000đ'
+            cours: '398.000đ',
+            courOld: '420.000đ'
 
         },
         {
             name: 'SP27',
             dec: 'Quần Baggy Ống Rộng Nữ Trơn Basic Trơn Phom Siêu Cao Tôn Dáng',
             image: '../asssets/img/sp27.png',
-            cours: '1.299.000đ',
-            courOld: '1.500.000đ'
+            cours: '329.000đ',
+            courOld: '420.000đ'
 
         },
     ],
@@ -91,18 +91,18 @@ const app = {
                         <i class="home-product-item__star--gold fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <span class="home-product-item__sold">88 đã bán</span>
+                    <span class="home-product-item__sold">20 đã bán</span>
                 </div>
                 <div class="home-product-item__origin">
-                    <span class="home-product-item__brand">Tanktop</span>
-                    <span class="home-product-item__origin-name">Hàn Quốc</span>
+                    <span class="home-product-item__brand">VietShop</span>
+                    <span class="home-product-item__origin-name">Nghệ An</span>
                 </div>
                 <div class="home-product-item__favarite">
                     <i class="fas fa-check"></i>
                     <span>Yêu thích</span>
                 </div>
                 <div class="home-product-item__sale-off">
-                    <span class="home-product-item__percent">10%</span>
+                    <span class="home-product-item__percent">15%</span>
                     <span class="home-product-item__sale-off-label">GIẢM</span>
                 </div>
             </a>
