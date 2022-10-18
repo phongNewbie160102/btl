@@ -1,0 +1,160 @@
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #333;
+  --primary-color: #f53e2d;
+  --star-gold-color: #ffce3e;
+
+  --header-height: 120px;
+  --header-nav: 33px;
+  --header-search: calc(var(--header-height) - var(--header-nav));
+  --header-sort-bar-height: 46px;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box; /* Khi đụng tới phần grid, phải có thuốc tính này, nếu không sẽ bị xuống hàng khi chia column */
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+.grid {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  /* display: flex; */
+}
+.grid__full-width {
+  width: 100%;
+}
+.grid__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -5px; /* Mục đích để 2 khoảng ngoài lề được đảm bảo cách 5px, ở giữa cách 24px theo tiêu chuẩn */
+  margin-right: -5px;
+}
+
+/* Test */
+.grid__column-2 {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 16.6667%;
+}
+.grid__column-2-4 {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 20%;
+}
+.grid__column-10 {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 83.3333%;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 12px;
+  min-width: 124px;
+  height: 34px;
+  line-height: 1.6rem;
+  font-size: 1.5rem;
+  border-radius: 2px;
+  color: var(--text-color);
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes growth {
+  from {
+    transform: scale(var(--growth-from)); /* Đặt 1 biến local */
+  }
+  to {
+    transform: scale(var(--growth-to));
+  }
+}
+
+/* Selection */
+
+.select-input {
+  min-width: 200px;
+  height: 34px;
+  font-size: 1.4rem;
+  background-color: var(--white-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 2px;
+  padding: 0 12px;
+  position: relative;
+  cursor: pointer;
+}
+
+.select-input:hover .select-input__list {
+  display: block;
+}
+
+.select-input__list::before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: -10px;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+}
+
+.select-input__list {
+  position: absolute;
+  top: 25px;
+  right: 0;
+  left: 0;
+  background-color: var(--white-color);
+  list-style: none;
+  padding: 8px 16px;
+  border-radius: 2px;
+  display: none;
+}
+
+.select-input__link {
+  font-size: 1.4rem;
+  color: var(--text-color);
+  text-decoration: none;
+  display: block;
+  padding: 4px 0;
+}
+
+.select-input__link:hover {
+  color: var(--primary-color);
+}
