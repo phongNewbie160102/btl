@@ -674,6 +674,7 @@ vì QR chỉ để chụp, không dẫn link */
     height: 85%;
     object-fit: cover;
     object-position: center;
+    margin-top: 8px;
 }
 
 .header-logo-icon {
