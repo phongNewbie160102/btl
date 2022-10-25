@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi Tiết Sản Phẩm</title>
+    <link rel="stylesheet" href="../asssets/css/base.css" />
+    <link rel="stylesheet" href="../asssets/css/main.css" />
+    <link rel="stylesheet" href="../asssets/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="../font/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+    <link rel="stylesheet" href="../asssets/css/grid.css">
+    <link rel="stylesheet" href="../asssets/css/responsive.css">
+    <link rel="stylesheet" href="../asssets/css/ChiTietSanPham.css">
+    <script src="../JS/jquery-3.6.0.min.js"></script>
+    <script src="../JS/main_home.js"></script>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header class="header">
+            <div class="grid wide">
+                <div class="header__nav hide-on-mobile-tablet">
+                    <ul class="hd__nav__list">
+                        <li class="hd__nav__item nav--separate">
+                            Vào cửa hàng trên ứng dụng TickID
+                            <!-- QR CODE -->
+                            <div class="header__qr">
+                                <img src="../asssets/img/qr-code.png" alt="QR code" class="qr__img" />
+                                <div class="heading__qr-link">
+                                    <a href="">
+                                        <img src="../asssets/img/google play.png" alt="Google play" class="qr-link" />
+                                    </a>
+                                    <a href="">
+                                        <img src="../asssets/img/apple store.png" alt="Apple Store" class="qr-link" />
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="hd__nav__item">
+                            Kết nối
+                            <a href="" class="hd__icon-link">
+                                <i class="nav__item__icon fab fa-facebook"></i>
+                            </a>
+                            <a href="" class="hd__icon-link">
+                                <i class="nav__item__icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <!-- Lồng thẻ icon vào thẻ a mới dẫn link được -->
+                    </ul>
+                    <ul class="hd__nav__list">
+                        <li class="hd__nav__item item-notify">
+                            <a href="" class="nav__item-link">
+                                <i class="nav__item__icon far fa-bell"></i> Thông báo
+                            </a>
+                            <!-- BEGIN NOTIFY -->
+                            <div class="notify">
+                                <ul class="notify-list">#
+                                    <li class="notify-content">
+                                        <a href="#" class="notify-link">
+                                            <img class="notify-img" src="https://cf.shopee.vn/file/f0aeeff9897f55b5a7a71d3702faa50e_tn" alt="Ảnh sản phẩm" />
+                                            <div class="notify-desc">
+                                                <header class="notify-title">
+                                                    Voucher dành riêng cho bạn!
+                                                </header>
+                                                <p class="notify-title-desc">
+                                                    💥 Tặng bạn Voucher 10K cho đơn từ 50K 🌈 Đã có sẵn trong kho voucher của bạn ⏰ Hiệu lực: 0H 23/10/2022 - 23H59 26/11/2022 👉 Số lượng có hạn - Dùng ngay bạn nhé!
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="notify-content">
+                                        <a href="#" class="notify-link">
+                                            <img class="notify-img" src="https://cf.shopee.vn/file/f0aeeff9897f55b5a7a71d3702faa50e_tn" alt="Ảnh sản phẩm" />
+                                            <div class="notify-desc">
+                                                <header class="notify-title">
+                                                    Voucher dành riêng cho bạn!
+                                                </header>
+                                                <p class="notify-title-desc">
+                                                    💥 Tặng bạn Voucher 10K cho đơn từ 50K 🌈 Đã có sẵn trong kho voucher của bạn ⏰ Hiệu lực: 0H 23/10/2022 - 23H59 26/11/2022 👉 Số lượng có hạn - Dùng ngay bạn nhé!
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                            <!-- END NOTIFY -->
+
+                            <!-- Bị lỗi khi tạo thẻ a:link không nhận thuộc tính css color và text-decoration -->
+                        </li>
+                        <li class="hd__nav__item">
+                            <a href="" class="nav__item-link">
+                                <i class="nav__item__icon far fa-question-circle"></i> Trợ giúp
+                            </a>
+                        </li>
+                        <!-- <li class="hd__nav__item nav__item nav--separate">Đăng ký</li>
+                        <li class="hd__nav__item nav__item">Đăng nhập</li> -->
+                        <li class="hd__nav__item hd__nav__user">
+                            <img src="../asssets/img/avt1.png" class="hd__nav__user-img" alt="" />
+                            <span class="hd__nav__user-name">khách</span>
+                            <ul class="hd__nav__user-menu">
+                                <li class="hd__nav__user-item">
+                                    <a href="">Tài khoản của tôi</a>
+                                </li>
+                                <li class="hd__nav__user-item">
+                                    <a href="" class="">Địa chỉ của tôi</a>
+                                </li>
+                                <li class="hd__nav__user-item">
+                                    <a href="">Lịch sử mua sắm</a>
+                                </li>
+                                <li class="hd__nav__user-item hd__nav__user-item--separate">
+                                    <a href="">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="hd__nav__item login-sigup">
+                            <a href="#" id="sigup">
+                                <i class="ti-user" id="sig-in"></i> Đăng Nhập
+                            </a>
+                            <a href="#" id="log-in">Đăng Ký</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Header-with-search -->
+                <div class="header-with-search">
+                    <div class="header-logo hide-on-tablet ">
+                        <img src="../asssets/img/logo.jpg" alt="logo">
+                    </div>
+                    <input type="checkbox" hidden id="mobile-search-checkbox" class="header__search-checkbox">
+
+                    <div class="header-search ">
+                        <div class="header-search-input-wrap">
+                            <input type="text" class="header-search-input" placeholder="Hàng hiệu giảm đến 50%" />
+                            <!-- Search history -->
+                            <div class="header-search-history">
+                                <h3 class="header-search-history-title">
+                                    Lịch sử tìm kiếm
+                                </h3>
+                                <ul class="header-search-history-list">
+                                    <li class="header-search-history-items">
+                                        <a href="http://">Quần tây nam</a>
+                                    </li>
+                                    <li class="header-search-history-items">
+                                        <a href="http://">Áo sơ mi nam</a>
+                                    </li>
+                                    <li class="header-search-history-items">
+                                        <a href="http://">Áo thun nữ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <i class="header-search-btn-icon fas fa-search"></i>
+                        </button>
+                    </div>
+                    <!-- cart layout -->
+                    <div class="header-cart">
+                        <div class="header-cart-wrap">
+                            <i class="header-cart-icon fas fa-shopping-cart"></i>
+                            <span class="header-cart-notice">3</span>
+                            <!-- No cart: header-cart-list--no-cart-->
+                            <div class="header-cart-list">
+                                <img src="../asssets/img/no-cart.png" alt="Cart-empty" class="header-cart-list--no-cart-img" />
+                                <span class="header-cart-list-msg">Chưa có sản phẩm</span>
+
+                                <h4 class="header-cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="header-cart-list-item">
+                                    <li class="header-cart-item">
+                                        <img src="../asssets/img/sp18.png" class="header-cart-img" alt="Condom" />
+                                        <div class="header-cart-info">
+                                            <div class="header-cart-item-head">
+                                                <h5 class="header-cart-item-name">
+                                                    Áo Blazer Nam Tay Lỡ MANDO Form Rộng Kiểu Dáng Thời Trang Hàn Quốc Basic
+                                                </h5>
+                                                <div class="header-cart-item-wrap">
+                                                    <span class="header-cart-item-priced">300.000đ</span>
+                                                    <span class="header-cart-item-multiply">x</span>
+                                                    <span class="header-cart-item-qnt">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header-cart-item-body">
+                                                <span class="header-cart-item-desc">Phân loại hàng: Bạc</span>
+                                                <span class="header-cart-item-remove">Xoá</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header-cart-item">
+                                        <img src="../asssets/img/sp17.png" class="header-cart-img" alt="Condom" />
+                                        <div class="header-cart-info">
+                                            <div class="header-cart-item-head">
+                                                <h5 class="header-cart-item-name">
+                                                    Áo sơ mi nam dài tay Urano cổ bẻ, áo sơ mi vải lụa nến không nhăn không xù cao cấp
+                                                </h5>
+                                                <div class="header-cart-item-wrap">
+                                                    <span class="header-cart-item-priced">245.000đ</span>
+                                                    <span class="header-cart-item-multiply">x</span>
+                                                    <span class="header-cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header-cart-item-body">
+                                                <span class="header-cart-item-desc">Phân loại hàng: Bạc</span>
+                                                <span class="header-cart-item-remove">Xoá</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <a class="header-cart-view-cart btn btn--primary">Xem giỏ hàng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="header__sort-bar">
+                <li class="header__sort-bar-item"><a href="" class="header__sort-link">Liên quan</a></li>
+                <li class="header__sort-bar-item header__sort-bar-item--active"><a href="" class="header__sort-link">Mới
+          nhất</a></li>
+                <li class="header__sort-bar-item"><a href="" class="header__sort-link">Bán chạy</a></li>
+                <li class="header__sort-bar-item"><a href="" class="header__sort-link">Giá</a></li>
+            </ul>
+        </header>
+        <div class="after-header">
+            <ul id="nav">
+                <li><a href="../index.html">Trang Chủ</a></li>
+                <li>
+                    <a href="#">Đồ Nữ</a>
+                    <ul class="subnav">
+                        <li><a href="./quannu.html">Quần Nữ</a></li>
+                        <li><a href="./aonu.html">Áo Nữ</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Đồ Nam</a>
+                    <ul class="subnav">
+                        <li><a href="./quannam.html">Quần Nam</a></li>
+                        <li><a href="./aonam.html">Áo Nam</a></li>
+                    </ul>
+                </li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./sitemap.html">Site Maps</a></li>
+            </ul>
+        </div>
+        <div class="content pt-4 pb-4 h-100">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="product-img">
+                        <img src="../asssets/img/sp3.png" alt="" width="350px">
+                    </div>
+                    <div class="share ml-4 mt-2">
+                        <span>Chia sẻ: </span>
+                        <a href="#" class="link ml-1 mr-1"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="link ml-1 mr-1"><i class="fa-brands fa-facebook-messenger"></i></a>
+                        <a href="#" class="link ml-1 mr-1"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="product_detail pb-4">
+                        <div class="product_title">
+                            <div class="row">
+                                <h2 class="heading_title">Set bộ đồ nữ chữ N , áo polo khóa kèm quần short đùi thêu form rộng unisex</h2>
+                            </div>
+                            <div class="row">
+                                <p class="p1">99 đánh giá | Đã bán 199</p>
+                            </div>
+                            <!-- <div class="row"> -->
+                            <div class="price">
+                                <span class="price_old ml-2">320.000đ</span>
+                                <span class="discount text-danger">-10%</span>
+                                <p class="price_new text-danger ml-2">289.000đ</p>
+                            </div>
+                            <!-- </div> -->
+                            <div class="row">
+                                <div class="ship">
+                                    <form action="">
+                                        <label for="">Vận chuyển đến <i class="fa-solid fa-truck"></i></label>
+                                        <select class="ml-3" name="" id="">
+                                            <option value="Hà Nội">Hà Nội</option>
+                                            <option value="Đà Nẵng">Đà Nẵng</option>
+                                            <option value="TP Hồ Chí Minh">TP Hồ Chí Minh</option>
+                                        </select>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="quantity">
+                                    <form action="">
+                                        <label for="">Số lượng: </label>
+                                        <input type="text" name="" id="">
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <button type="button" class="btn btn_add mr-4">
+                                    <span><i class="fa-solid fa-cart-plus mr-2"></i>Thêm vào giỏ hàng</span>
+                                </button>
+                                <a href="../HTML/DatHang.html"><button type="button" class="btn btn-primary">Mua ngay</button></a>
+                            </div>
+                            <div class="row mt-4">
+                                <p class="text-warning">2TV đảm bảo 3 ngày trả hàng / hoàn tiền</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="detail">
+                <form action="">
+                    <div class="heading_title">
+                        <!-- <div class="row"> -->
+                        <h4 class="ml-5 mt-4">Chi tiết sản phẩm</h4>
+                        <!-- </div> -->
+                    </div>
+                    <div class="form">
+                        <form action="">
+                            <div class="row">
+                                <label for="">Xuất sứ</label>
+                                <span>Việt Nam</span>
+                            </div>
+                            <div class="row">
+                                <label for="">Hạn bảo hành</label>
+                                <span>2 năm</span>
+                            </div>
+                            <div class="row">
+                                <label for="">Kho hàng</label>
+                                <span>20</span>
+                            </div>
+                            <div class="row">
+                                <label for="">Gửi từ</label>
+                                <span>Quận Gò Vấp, Thành Phố Hồ Chí Minh</span>
+                            </div>
+                        </form>
+                    </div>
+                </form>
+            </div>
+            <div class="detail">
+                <form action="">
+                    <div class="heading_title">
+                        <h4 class="ml-5 mt-4">Mô tả sản phẩm</h4>
+                    </div>
+                    <div class="product_des">
+                        <p>Khách hàng có thể mua với 2 hình thức: mua hàng trực tiếp tại các cửa hàng phân phối và trên website với giá và chất lượng không thay đổi.</p>
+                        <p>Các Mẫu Quần Dài Nam Nữ Đẹp Chính Hãng Từ Uniqlo - Thương Hiệu Thời Trang Nhật Bản. Uniqlo - Thương Hiệu Thời Trang Hàng Đầu Nhật Bản. Nhận Ưu Đãi Lớn Khi Mua Online. Đổi Trả 14 Ngày. Giá Mới Mỗi Ngày. Giảm Giá Đặc Biệt. Đảm Bảo
+                            Chất Lượng.</p>
+                        <p>Chúng tôi cam kết sản phẩm đến tay quý khách luôn chất lượng và đảm bảo nhãn mác chuẩn. Chúng tôi hy vọng quý khách sẽ luôn hài lòng về giá cả, chất lượng sản phẩm cũng như chất lượng dịch vụ khi đến mua sắm tại hệ thống cửa hàng.</p>
+                    </div>
+                </form>
+                <div class="detail">
+                    <form action="">
+                        <div class="heading_title text-dark">
+                            <!-- <div class="row"> -->
+                            <h4 class="ml-5 mt-4">Sản phẩm tương tự</h4>
+                            <!-- </div> -->
+                        </div>
+                        <div class="product_same">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="product">
+                                        <div class="product_img">
+                                            <a href="../HTML/ChiTietSanPham.html" class="link">
+                                                <img src="../asssets/img/sp1.png" alt="" width="196px">
+                                            </a>
+                                        </div>
+                                        <div class="product_infor ml-3">
+                                            <h6 class="heading_title">Áo khoác nỉ Hoodies cao cấp HD02, Áo bomber form rộng Oversize</h6>
+                                            <p class="price_p">299.000</p>
+                                            <p class="done">Đã bán 2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="product">
+                                        <div class="product_img">
+                                            <a href="../HTML/ChiTietSanPham.html" class="link">
+                                                <img src="../asssets/img/sp2.png" alt="" width="196px">
+                                            </a>
+                                        </div>
+                                        <div class="product_infor ml-3">
+                                            <h6 class="heading_title">Áo khoác gió 3 khóa nam nữ chống nước</h6>
+                                            <p class="price_p">199.000đ</p>
+                                            <p class="done">Đã bán 2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="product">
+                                        <div class="product_img">
+                                            <a href="../HTML/ChiTietSanPham.html" class="link">
+                                                <img src="../asssets/img/sp7.png" alt="" width="196px">
+                                            </a>
+                                        </div>
+                                        <div class="product_infor ml-3">
+                                            <h6 class="heading_title">Áo sơ mi ngắn tay form rộng, thời trang hiện đại unisex chất liệu vải lụa mềm chống nhăn</h6>
+                                            <p class="price_p">399.000đ</p>
+                                            <p class="done">Đã bán 2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="product">
+                                        <div class="product_img">
+                                            <a href="../HTML/ChiTietSanPham.html" class="link">
+                                                <img src="../asssets/img/sp11.png" alt="" width="196px">
+                                            </a>
+                                        </div>
+                                        <div class="product_infor ml-3">
+                                            <h6 class="heading_title">Áo Hoodie ni lông trơn màu xám xanh UNISEX ,Nam nữ unisex, HOODIE TRƠN</h6>
+                                            <p class="price_p">239.000đ</p>
+                                            <p class="done">Đã bán 2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="product">
+                                        <div class="product_img">
+                                            <a href="../HTML/ChiTietSanPham.html" class="link">
+                                                <img src="../asssets/img/sp7.png" alt="" width="196px">
+                                            </a>
+                                        </div>
+                                        <div class="product_infor ml-3">
+                                            <h6 class="heading_title">MÁo sơ mi ngắn tay form rộng, thời trang hiện đại unisex chất liệu vải lụa mềm chống nhăn</h6>
+                                            <p class="price_p">399.000đ</p>
+                                            <p class="done">Đã bán 2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="product">
+                                        <div class="product_img">
+                                            <a href="../HTML/ChiTietSanPham.html" class="link">
+                                                <img src="../asssets/img/sp11.png" alt="" width="196px">
+                                            </a>
+                                        </div>
+                                        <div class="product_infor ml-3">
+                                            <h6 class="heading_title">Áo Hoodie ni lông trơn màu xám xanh UNISEX ,Nam nữ unisex, HOODIE TRƠN</h6>
+                                            <p class="price_p">239.000đ</p>
+                                            <p class="done">Đã bán 2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="grid wide footer__content">
+                    <div class="row">
+                        <div class="col l-2-4 m-4 c-6">
+                            <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                            <ul class="footer-list">
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Trung Tâm Trợ Giúp</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">F8-Shop Mall</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-2-4 m-4 c-6">
+                            <h3 class="footer__heading">Giới thiệu</h3>
+                            <ul class="footer-list">
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Giới thiệu</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Tuyển dụng</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Điều khoản</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-2-4 m-4 c-6">
+                            <h3 class="footer__heading">Danh mục</h3>
+                            <ul class="footer-list">
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Trang điểm mặt</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Trang điểm môi</a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">Trang điểm mắt</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-2-4 m-4 c-6">
+                            <h3 class="footer__heading">Theo dõi</h3>
+                            <ul class="footer-list">
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">
+                                        <i class="footer-item__icon fab fa-facebook"></i> Facebook
+                                    </a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">
+                                        <i class="footer-item__icon fab fa-instagram"></i> Instagram
+                                    </a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">
+                                        <i class="footer-item__icon fab fa-linkedin"></i> Linkedin
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-2-4 m-4 c-6">
+                            <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
+                            <div class="footer__download">
+                                <img src="../asssets/img/qr-code.png" alt="Download QR" class="footer__download-qr">
+                                <div class="footer__download-apps">
+                                    <a href="" class="footer__download-app-link">
+                                        <img src="../asssets/img/google play.png" alt="Google play" class="footer__download-app-img">
+                                    </a>
+                                    <a href="" class="footer__download-app-link">
+                                        <img src="../asssets/img/apple store.png" alt="App store" class="footer__download-app-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer__bottom">
+                    <div class="grid wide">
+                        <p class="footer__text">© 2019 - Bản quyền thuộc về Công ty MyCV</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+</body>
+
+</html>

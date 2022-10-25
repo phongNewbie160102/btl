@@ -1,0 +1,88 @@
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.product-img img {
+    padding-left: 68px;
+}
+
+.share i {
+    color: blue;
+    font-size: 20px;
+}
+
+.price {
+    background-color: #ccc;
+}
+
+.price_old {
+    text-decoration: line-through;
+}
+
+.discount {
+    font-size: 20px;
+}
+
+.price_new {
+    font-size: 30px;
+}
+
+.btn_add {
+    border: 1px solid #2196f3;
+}
+
+.detail {
+    border-top: 1px solid #ccc;
+}
+
+.form {
+    margin-left: 100px;
+}
+
+.form label {
+    color: #ccc;
+    width: 124px;
+}
+
+.form span {
+    font-weight: 500;
+}
+
+.product_des {
+    margin-left: 100px;
+}
+
+.product_title .heading_title {
+    font-size: 22px;
+}
+
+.heading_title {
+    font-size: 13px;
+}
+
+span {
+    font-size: 16px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #99d9d9;
+    border-color: #99d9d9;
+}
+
+.quantity input {
+    width: 180px;
+    height: 30px;
+    margin: 18px 11px;
+}
+
+select.ml-3 {
+    height: 31px;
+    width: 180px;
+    font-size: 17px;
+}
+
+.content.pt-4.pb-4.h-100 {
+    margin-top: 70px;
+}
